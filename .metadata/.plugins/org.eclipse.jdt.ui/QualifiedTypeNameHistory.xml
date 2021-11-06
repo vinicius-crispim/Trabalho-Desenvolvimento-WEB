@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.cors.UrlBasedCorsConfigurationSource"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="org.springframework.web.cors.CorsConfigurationSource"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
+    <fullyQualifiedTypeName name="com.tabalhoweb.facade.services.ProdutoService"/>
+    <fullyQualifiedTypeName name="com.tabalhoweb.facade.services.CategoriaService"/>
+    <fullyQualifiedTypeName name="com.tabalhoweb.facade.facadeproduto.ProdutoFacade"/>
+    <fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,71 @@
+package com.tabalhoweb.facade.facadeproduto;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+import com.tabalhoweb.facade.entities.Categoria;
+import com.tabalhoweb.facade.entities.Produto;
+import com.tabalhoweb.facade.services.CategoriaService;
+import com.tabalhoweb.facade.services.ProdutoService;
+
+public class ProdutoFacade {
+
+	@Autowired
+	private CategoriaService cateservice;
+
+	@Autowired
+	private ProdutoService prodservice;
+
+	// inicio Categoria
+
+	public List<Categoria> findAllCategoria() {
+		return cateservice.findAll();
+	}
+
+	public Categoria findCategoriaById(Long id) {
+		return cateservice.findById(id);
+
+	}
+
+	public Categoria saveCategoria(Categoria categoria) {
+		return cateservice.saveCategoria(categoria);
+	}
+
+	public void deleteCategoria(Long id) {
+			cateservice.deleteCategoria(id);
+	}
+
+	public Categoria updateCategoria(Long id, Categoria categoria) {
+			return cateservice.updateCategoria(id, categoria);
+	}
+
+	// fim Categoria
+
+	// inicio Produto
+
+		public Page<Produto> findAllProduto(Pageable pageable) {
+			return prodservice.findAll(pageable);
+		}
+
+		public Produto findProdutoById(Long id) {
+			return prodservice.findById(id);
+
+		}
+
+		public Produto saveProduto(Produto produto) {
+			return prodservice.saveProduto(produto);
+		}
+
+		public void deleteProduto(Long id) {
+			prodservice.deleteProduto(id);
+		}
+
+		public Produto updateCategoria(Long id, Produto produto) {
+				return cateservice.updateCategoria(id, produto);
+		}
+
+		// fim Produto
+}

@@ -1,0 +1,5 @@
+package com.tabalhoweb.facade.entities;
+
+public class Categoria {
+
+}

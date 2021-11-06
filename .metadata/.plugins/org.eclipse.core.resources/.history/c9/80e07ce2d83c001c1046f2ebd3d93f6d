@@ -1,0 +1,5 @@
+package com.tabalhoweb.facade.resources;
+
+public class ProdutoResource {
+
+}

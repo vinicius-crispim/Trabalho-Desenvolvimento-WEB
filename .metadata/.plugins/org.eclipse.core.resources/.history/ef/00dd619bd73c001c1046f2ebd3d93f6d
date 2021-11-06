@@ -1,0 +1,9 @@
+package com.tabalhoweb.facade.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.projeto.faceBuy.entities.Categoria;
+
+public interface CategoriaRepository extends JpaRepository<Categoria,Long> {
+    
+}

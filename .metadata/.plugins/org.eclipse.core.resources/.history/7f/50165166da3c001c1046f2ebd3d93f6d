@@ -1,0 +1,17 @@
+package com.tabalhoweb.facade.facadeproduto;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.tabalhoweb.facade.services.CategoriaService;
+import com.tabalhoweb.facade.services.ProdutoService;
+
+public class ProdutoFacade {
+
+	@Autowired
+	private CategoriaService cateservice;
+	
+	@Autowired
+	private ProdutoService prodservice;
+	
+	
+}

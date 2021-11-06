@@ -1,0 +1,5 @@
+package com.tabalhoweb.facade.repositories;
+
+public class CategoriaRepository {
+
+}
